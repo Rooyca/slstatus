@@ -67,11 +67,11 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ datetime,    " %s ",             "%a %b %d - %I:%M%p" },
     { cat, 		   "%s", 			   "/home/rooyca/.reminders/today"},
-	//{ vol_perc, "█ 󰄌 %s%%",      "Master" },
-	{ battery_perc, "; █ 󰄌 %s%%",      "BAT0" },
-	{ cpu_perc,    " █  %s%%",       NULL  },
-	{ ram_perc,    " █ 󱞟 %s%%",       NULL  },
-	{ wifi_perc,   " █ 󱚻 %s%%",      "wlan0" },
-	{ netspeed_rx, " █  %s ",           "wlan0" },
-	{ netspeed_tx, "█  %s ",            "wlan0" },
+	//{ vol_perc, "| 󰄌 %s%%",      "Master" },
+	{ battery_perc, "; | 󰄌 %s%%",      "BAT0" },
+	{ cpu_perc,    " |  %s%%",       NULL  },
+	{ ram_perc,    " | 󱞟 %s%%",       NULL  },
+	{ wifi_perc,   " | 󱚻 %s%%",      "wlan0" },
+	{ netspeed_rx, " |  %s ",           "wlan0" },
+	{ netspeed_tx, "|  %s ",            "wlan0" },
 };
